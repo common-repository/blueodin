@@ -1,0 +1,65 @@
+Running php-build composer
+WARNING! Your password will be stored unencrypted in /home/runner/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Pulling docker.pkg.github.com/blue-odin/wordpress-plugin/php-actions_composer_wordpress-plugin:php-latest-build2
+php-latest-build2: Pulling from blue-odin/wordpress-plugin/php-actions_composer_wordpress-plugin
+2408cc74d12b: Pulling fs layer
+fde5ea1cb188: Pulling fs layer
+3935ba60366a: Pulling fs layer
+4712e34f1d29: Pulling fs layer
+46ad320e620f: Pulling fs layer
+217a7e6d2acf: Pulling fs layer
+38b3d966c79c: Pulling fs layer
+4465162bf62f: Pulling fs layer
+c9d82d980f59: Pulling fs layer
+f55707e2a4e0: Pulling fs layer
+217a7e6d2acf: Waiting
+38b3d966c79c: Waiting
+4465162bf62f: Waiting
+c9d82d980f59: Waiting
+f55707e2a4e0: Waiting
+4712e34f1d29: Waiting
+46ad320e620f: Waiting
+3935ba60366a: Verifying Checksum
+3935ba60366a: Download complete
+2408cc74d12b: Verifying Checksum
+2408cc74d12b: Download complete
+fde5ea1cb188: Verifying Checksum
+fde5ea1cb188: Download complete
+2408cc74d12b: Pull complete
+fde5ea1cb188: Pull complete
+3935ba60366a: Pull complete
+4712e34f1d29: Verifying Checksum
+4712e34f1d29: Download complete
+217a7e6d2acf: Verifying Checksum
+217a7e6d2acf: Download complete
+4712e34f1d29: Pull complete
+46ad320e620f: Verifying Checksum
+46ad320e620f: Download complete
+46ad320e620f: Pull complete
+4465162bf62f: Verifying Checksum
+4465162bf62f: Download complete
+217a7e6d2acf: Pull complete
+38b3d966c79c: Verifying Checksum
+38b3d966c79c: Download complete
+c9d82d980f59: Verifying Checksum
+c9d82d980f59: Download complete
+f55707e2a4e0: Verifying Checksum
+f55707e2a4e0: Download complete
+38b3d966c79c: Pull complete
+4465162bf62f: Pull complete
+c9d82d980f59: Pull complete
+f55707e2a4e0: Pull complete
+Digest: sha256:e44e912b7e44ae46565383972c052982e32e639007a7695c77469e6ffb24af2d
+Status: Downloaded newer image for docker.pkg.github.com/blue-odin/wordpress-plugin/php-actions_composer_wordpress-plugin:php-latest-build2
+docker.pkg.github.com/blue-odin/wordpress-plugin/php-actions_composer_wordpress-plugin:php-latest-build2
+Docker tag: docker.pkg.github.com/blue-odin/wordpress-plugin/php-actions_composer_wordpress-plugin:php-latest-build2
+No private keys supplied
+Command: composer dump-autoload --no-interaction
+Skipping env variable PWD
+Skipping env variable HOME
+Skipping env variable SHLVL
+Skipping env variable PATH
